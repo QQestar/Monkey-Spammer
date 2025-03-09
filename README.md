@@ -7,11 +7,10 @@ Monkey Spammer is an efficient spambot designed for automation. It features a sl
 - **Modern GUI** (built with customtkinter)
 - **Customizable message input** (multiple lines)
 - **Set message multiplier & adjustable delay**
-- **Built-in confirmation before spamming**
 - **Fully standalone EXE** (no dependencies required)
 
 ## Installation
-1. Extract the "Monkey Spammer.zip" file.
+1. Download and extract the "Monkey Spammer.zip" file.
 2. Simply run **MonkeySpammer.exe**. No additional setup is needed.
 
 ## How to Use
@@ -20,6 +19,17 @@ Monkey Spammer is an efficient spambot designed for automation. It features a sl
 3. Set the multiplier (number of repetitions).
 4. Set the delay (time between messages).
 5. Click **"Start Spamming"** and confirm.
+
+## How It Was Made
+
+Monkey Spammer was developed using Python as the primary programming language. The program leverages:
+
+- **PyAutoGUI:** For automating keyboard input and simulating mouse clicks.
+- **customtkinter:** To create a modern, visually appealing graphical user interface (GUI) that lets users enter messages, set repetition multipliers, and specify delays.
+- **Time Module:** For controlling the delay between messages.
+  
+The program was first developed and tested as a Python script in an IDE (PyCharm), and then converted into a standalone executable using PyInstaller. This ensures that the final product is easy to run on any Windows machine without requiring Python to be installed.
+
 
 ## Disclaimer
 This tool is provided for educational and automation purposes only. The developer is not responsible for any misuse of this software.
